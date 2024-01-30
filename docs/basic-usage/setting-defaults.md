@@ -15,7 +15,7 @@ use Spatie\LaravelPdf\Enums\Format;
 
 Pdf::default()
     ->headerView('pdf.header')
-    ->paperFormat(Format::A3);
+    ->format(Format::A3);
 ```
 
 With this code, every PDF generated in your app will have the `pdf.header` view as header and will be rendered in A3 format.
